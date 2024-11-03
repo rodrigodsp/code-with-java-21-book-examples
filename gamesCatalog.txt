@@ -1,0 +1,7 @@
+name, company, year
+Pitfall!, Activision, 1982
+Crackpots, Activision, 1982
+Yars' Revenge, Atari, 1981
+Warlords, Atari, 1981
+Defender, Atari, 1981
+Adventure, Atari, 1980

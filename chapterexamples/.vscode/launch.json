@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WorkingWithRecords",
+            "request": "launch",
+            "mainClass": "com.example.chapter4.WorkingWithRecords",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "WorkingWithCollections",
+            "request": "launch",
+            "mainClass": "com.example.chapter4.WorkingWithCollections",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "com.example.chapter2.HelloWorld",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "RandomCase",
+            "request": "launch",
+            "mainClass": "com.example.chapter2.RandomCase",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "ReadingInput",
+            "request": "launch",
+            "mainClass": "com.example.chapter2.ReadingInput",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "SimpleFileWorker",
+            "request": "launch",
+            "mainClass": "com.example.chapter2.SimpleFileWorker",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "CoordinateArrays",
+            "request": "launch",
+            "mainClass": "com.example.chapter4.CoordinateArrays",
+            "projectName": "chapterexamples"
+        }
+    ]
+}
