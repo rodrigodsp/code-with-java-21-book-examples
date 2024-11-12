@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MathExamples",
+            "request": "launch",
+            "mainClass": "com.example.chapter5.MathExamples",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
             "name": "WorkingWithRecords",
             "request": "launch",
             "mainClass": "com.example.chapter4.WorkingWithRecords",
