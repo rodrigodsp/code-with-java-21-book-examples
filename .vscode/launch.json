@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DataStructuresExamples",
+            "request": "launch",
+            "mainClass": "com.example.chapter6.DataStructuresExamples",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
             "name": "MathExamples",
             "request": "launch",
             "mainClass": "com.example.chapter5.MathExamples",
