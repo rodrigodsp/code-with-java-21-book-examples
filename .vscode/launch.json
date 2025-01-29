@@ -6,6 +6,31 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GeminiAstronautsNoSQL",
+            "request": "launch",
+            "mainClass": "com.example.chapter7.GeminiAstronautsNoSQL",
+            "projectName": "chapterexamples",
+            "env": {
+                "CASSANDRA_DB_HOST": "localhost",
+                "CASSANDRA_DB_PORT": "9042",
+                "CASSANDRA_DB_KEYSPACE": "astronaut_data",
+                "CASSANDRA_DB_LOCAL_DATACENTER": "datacenter1"
+            }
+        },
+        {
+            "type": "java",
+            "name": "GeminiAstronautsRDBMS",
+            "request": "launch",
+            "mainClass": "com.example.chapter7.GeminiAstronautsRDBMS",
+            "projectName": "chapterexamples",
+            "env": {
+                "POSTGRES_URL": "jdbc:postgresql://localhost:5432/chapter7",
+                "POSTGRES_USER": "postgres",
+                "POSTGRES_PASSWORD": "rdsp"
+            }
+        },
+        {
+            "type": "java",
             "name": "DataStructuresExamples",
             "request": "launch",
             "mainClass": "com.example.chapter6.DataStructuresExamples",
