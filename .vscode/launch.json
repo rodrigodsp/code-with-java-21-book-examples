@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WeatherappApplication",
+            "request": "launch",
+            "mainClass": "com.codewithjava21.weatherapp.WeatherappApplication",
+            "projectName": "weatherapp",
+            "env": {
+                "CASSANDRA_DB_HOST": "localhost",
+                "CASSANDRA_DB_PORT": "9042",
+                "CASSANDRA_DB_KEYSPACE": "weatherapp",
+                "CASSANDRA_DB_LOCAL_DATACENTER": "datacenter1"
+            }
+        },
+        {
+            "type": "java",
             "name": "GeminiAstronautsNoSQL",
             "request": "launch",
             "mainClass": "com.example.chapter7.GeminiAstronautsNoSQL",
