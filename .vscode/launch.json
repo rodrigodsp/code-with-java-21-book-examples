@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DrawPlanets",
+            "request": "launch",
+            "mainClass": "com.example.chapter9.DrawPlanets",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDraw",
+            "request": "launch",
+            "mainClass": "com.example.chapter9.SimpleDraw",
+            "projectName": "chapterexamples"
+        },
+        {
+            "type": "java",
             "name": "WeatherappApplication",
             "request": "launch",
             "mainClass": "com.codewithjava21.weatherapp.WeatherappApplication",
