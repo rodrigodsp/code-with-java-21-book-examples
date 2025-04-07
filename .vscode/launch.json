@@ -6,6 +6,32 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MovieappApplication",
+            "request": "launch",
+            "mainClass": "com.codewithjava21.movieapp.MovieappApplication",
+            "projectName": "movieapp",
+            "env": {
+                "CASSANDRA_DB_HOST": "localhost",
+                "CASSANDRA_DB_PORT": "9042",
+                "CASSANDRA_DB_KEYSPACE": "movieapp",
+                "CASSANDRA_DB_LOCAL_DATACENTER": "datacenter1"
+            }
+        },
+        {
+            "type": "java",
+            "name": "MovieDataLoader",
+            "request": "launch",
+            "mainClass": "com.codewithjava21.movieapp.batchloader.MovieDataLoader",
+            "projectName": "movieapp",
+            "env": {
+                "CASSANDRA_DB_HOST": "localhost",
+                "CASSANDRA_DB_PORT": "9042",
+                "CASSANDRA_DB_KEYSPACE": "movieapp",
+                "CASSANDRA_DB_LOCAL_DATACENTER": "datacenter1"
+            }
+        },
+        {
+            "type": "java",
             "name": "BreakoutGame",
             "request": "launch",
             "mainClass": "com.codewithjava21.BreakoutGame",
